@@ -2,15 +2,18 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!78 &1
 TagManager:
-  serializedVersion: 2
+  serializedVersion: 3
   tags: []
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Pawn
   - Water
   - UI
+  - Interactable
+  - Damageable
+  - Damage
   - 
   - 
   - 
@@ -33,11 +36,19 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
-  - 
-  - 
+  - WorldSpaceUI
   m_SortingLayers:
+  - name: Background
+    uniqueID: 3088652325
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Pawn
+    uniqueID: 869005631
+    locked: 0
+  - name: Foreground
+    uniqueID: 4257372879
+    locked: 0
+  m_RenderingLayers:
+  - Default
